@@ -1,0 +1,32 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  margin: 0;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+  -webkit-appearance: none;
+}
+
+div {
+  border-radius: 2px;
+}
+
+button:focus {
+  outline:0 !important;
+}
